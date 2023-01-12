@@ -11,6 +11,7 @@ body {
   /* max-width: 1600px; */
   /* width: 100%; */
 }
+a { text-decoration: none; }
 .newuserr:hover {
   color: rgb(199, 55, 110);
 }

@@ -24,7 +24,7 @@ body {
   display: grid;
   grid-gap: 1rem;
   padding: 1rem;
-  max-width: 1024px;
+  max-width: 1600px;
   margin: 0 auto;
   font-family: var(--font-sans);
 }
@@ -128,9 +128,9 @@ body {
   transition: transform var(--d) var(--e);
   z-index: 1;
 }
-.content > * + * {
+/* .content > * + * {
   margin-top: 1rem;
-}
+} */
 
 .title {
   font-size: 1.3rem;
@@ -145,7 +145,7 @@ body {
   line-height: 1.35;
 }
 
-.btn {
+.btn-topic {
   cursor: pointer;
   margin-top: 1.5rem;
   padding: 0.75rem 1.5rem;

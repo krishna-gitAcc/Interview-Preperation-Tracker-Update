@@ -5,7 +5,9 @@ body {
   padding: 0;
   margin: 0;
   background-image: url(https://images.unsplash.com/photo-1491895200222-0fc4a4c35e18?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80);
-
+}
+a {
+  text-decoration: none;
 }
 
 #price {
@@ -25,7 +27,6 @@ body {
   min-width: 280px;
   max-width: 100%;
   position: relative;
-
 }
 
 .entry-title {
@@ -91,10 +92,10 @@ body {
   border: none;
 }
 
-.btn {
+/* .btn {
   padding: 3em 0;
   text-align: center;
-}
+} */
 
 .btn a {
   background: #323232;
